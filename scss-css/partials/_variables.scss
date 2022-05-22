@@ -13,7 +13,23 @@ $optional: #440707;
 /* Polices & tailles */
 
 $font: 'Roboto Mono', monospace;
-$big-title-size: 55px;
-$title-size: 40px;
+
+/* Mobile */
+$mobile-big-title-size: 40px;
+/* Tablette */
+
+
+/* Desktop */
+$desk-big-title-size: 55px;
+$desk-title-size: 40px;
+
+/* Medias */
+/* On considère que Mobile est le média par défaut */
+
+/* Tablette */
+$medium: "screen and (min-width: 768px)";
+
+/* Desktop */
+$large: "screen and (min-width: 962px)";
 
 

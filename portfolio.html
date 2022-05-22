@@ -11,6 +11,7 @@
     <link rel="icon" href="./images/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
     <title>Portfolio - Anthony D.</title>
 </head>
@@ -21,19 +22,25 @@
 </div>
 <div class="header-box">
     <div class="header-content">
-        <nav>
-            <h1>Anthony D.</h1>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="mobile-menu">
+            <div class="topnav">
+                <h1>Anthony D.</h1>
+                <div id="myLinks">
+                    <a href="#news">About Me</a>
+                    <a href="#contact">Skills</a>
+                    <a href="#about">Experience</a>
+                    <a href="#about">Portfolio</a>
+                    <a href="#about">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
 <script src="script/background.js"></script>
+<script src="script/menu.js"></script>
 </body>
 </html>
