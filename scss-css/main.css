@@ -33,6 +33,7 @@ canvas {
 }
 .header-content nav {
   display: flex;
+  justify-content: space-between;
   height: 100px;
   background-color: rgba(10, 11, 13, 0.47);
   margin-top: 25px;
@@ -42,8 +43,27 @@ canvas {
   color: #f8f8f8;
   font-family: "Roboto Mono", monospace;
   font-size: 55px;
-  margin-left: 20px;
+  margin-left: 80px;
   margin-top: 10px;
+}
+.header-content nav ul {
+  list-style-type: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 25px;
+}
+.header-content nav ul li {
+  display: inline;
+  color: #f8f8f8;
+  margin-left: 20px;
+}
+.header-content nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  color: #f8f8f8;
+}
+.header-content nav ul li a:hover {
+  color: green;
 }
 
 .header-box {
