@@ -7,6 +7,7 @@
   }
   .header-content {
     grid-area: 1 / 2 / 13 / 12;
+    animation: fadein 8s;
     .large-menu {
       display: flex;
       justify-content: center;
@@ -14,6 +15,7 @@
       height: 120px;
       nav {
         text-align: center;
+        margin-top: 15px;
         h1 {
           color: white;
           font-family: $font;
@@ -44,7 +46,29 @@
     .face-image {
       img {
         width: 650px;
+        margin-bottom: -50px;
       }
+    }
+    .mega-text {
+      display: none;
+    }
+    .type-writer-text {
+      text-align: center;
+      margin: auto;
+      margin-bottom: 15px;
+      color: #dedede;
+      font-size: 36px;
+      font-family: 'Anonymous Pro', monospace;
+      border-right: 1px solid #dedede;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typewriter 8s steps(50) 0.5s 1 normal both,
+      cursorblink 0.5s infinite;
+    }
+    a {
+      text-decoration: none;
+      font-size: 35px;
+      color: $secondary;
     }
   }
 }
