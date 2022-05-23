@@ -1,0 +1,50 @@
+/* Medium size */
+
+
+@media #{$medium} {
+  .mobile-menu {
+    display: none;
+  }
+  .header-content {
+    grid-area: 1 / 2 / 13 / 12;
+    .large-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 120px;
+      nav {
+        text-align: center;
+        h1 {
+          color: white;
+          font-family: $font;
+          font-size: $desk-big-title-size;
+          margin-bottom: 10px;
+          text-decoration: underline 0.5px solid white;
+          text-underline-offset: 0.5rem;
+        }
+        ul {
+          li {
+            display: inline;
+            padding: 15px;
+            a {
+              text-decoration: none;
+              color: $secondary;
+              font-family: $font;
+            }
+            a:hover {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-elements {
+    text-align: center;
+    .face-image {
+      img {
+        width: 650px;
+      }
+    }
+  }
+}

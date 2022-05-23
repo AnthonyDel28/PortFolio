@@ -13,17 +13,7 @@
 /* On considère que Mobile est le média par défaut */
 /* Tablette */
 /* Desktop */
-/* Generals */
-html, body {
-  background: #131313;
-}
-
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
+/*  Keyframes */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -32,16 +22,28 @@ canvas {
     opacity: 1;
   }
 }
-.header-box {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em;
+  }
 }
-
+@keyframes cursorblink {
+  from {
+    border-right: 1px solid #dedede;
+  }
+  to {
+    border-right: 1px solid #666;
+  }
+}
 /* Mobile (Default) */
 @media screen and (max-width: 767px) {
+  .large-menu {
+    display: none;
+  }
+
   .header-content {
     grid-area: 1/1/13/13;
     margin-top: 25px;
@@ -130,6 +132,7 @@ canvas {
   .header-elements .face-image img {
     position: relative;
     margin: auto;
+    margin-left: 20px;
     margin-top: 50px;
     margin-left: -50px;
     width: 500px;
@@ -156,26 +159,69 @@ canvas {
     color: white;
   }
 }
+/* Medium size */
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
+
+  .header-content {
+    grid-area: 1/2/13/12;
+  }
+  .header-content .large-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+  .header-content .large-menu nav {
+    text-align: center;
+  }
+  .header-content .large-menu nav h1 {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-decoration: underline 0.5px solid white;
+    text-underline-offset: 0.5rem;
+  }
+  .header-content .large-menu nav ul li {
+    display: inline;
+    padding: 15px;
+  }
+  .header-content .large-menu nav ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-family: "Roboto Mono", monospace;
+  }
+  .header-content .large-menu nav ul li a:hover {
+    color: #131313;
+  }
+
+  .header-elements {
+    text-align: center;
+  }
+  .header-elements .face-image img {
+    width: 650px;
+  }
 }
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 12em;
-  }
+/* Generals */
+html, body {
+  background: #131313;
 }
-@keyframes cursorblink {
-  from {
-    border-right: 1px solid #dedede;
-  }
-  to {
-    border-right: 1px solid #666;
-  }
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 /*# sourceMappingURL=main.css.map */
