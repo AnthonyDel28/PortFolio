@@ -44,11 +44,22 @@ canvas {
 @media screen and (max-width: 767px) {
   .header-content {
     grid-area: 1/1/13/13;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 8s;
   }
 
   .topnav {
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* Sidenav menu */
+    /* Sidenav menu links */
+    /* Active class */
+    /* Close btn */
+    /* Icône burger */
   }
   .topnav h1 {
     color: #f8f8f8;
@@ -58,31 +69,63 @@ canvas {
     text-decoration: underline 1px solid;
     text-underline-offset: 5px;
   }
-  .topnav #myLinks {
-    display: none;
+  .topnav .sidenav {
+    height: 400px;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: rgba(44, 44, 44, 0.57);
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    margin-top: 220px;
   }
-  .topnav a {
-    color: #f8f8f8;
-    padding: 14px 16px;
+  .topnav .sidenav a {
+    margin-top: 20px;
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 17px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    color: #ffffff;
     display: block;
+    transition: 0.3s;
   }
-  .topnav a.icon {
-    background: #131313;
-    display: block;
+  .topnav .sidenav a:hover {
+    color: #111;
+  }
+  .topnav .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .topnav .sidenav.active {
+    left: 0;
+  }
+  .topnav .sidenav .close {
     position: absolute;
-    right: 30px;
-    top: 30px;
-    border: 1px solid white;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
   }
-  .topnav a:hover {
-    background-color: #f8f8f8;
-    color: #131313;
+  .topnav .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: #f1f1f1;
+    margin: 6px 0;
+  }
+  .topnav #openBtn {
+    margin-top: 40px;
+    margin-right: 40px;
   }
 
   .header-elements {
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
   }
   .header-elements .face-image img {
     position: relative;
@@ -90,6 +133,48 @@ canvas {
     margin-top: 50px;
     margin-left: -50px;
     width: 500px;
+  }
+  .header-elements .type-writer-text {
+    text-align: center;
+    margin: auto;
+    color: #dedede;
+    font-size: 26px;
+    font-family: "Anonymous Pro", monospace;
+    border-right: 1px solid #dedede;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 8s steps(50) 0.5s 1 normal both, cursorblink 0.5s infinite;
+  }
+
+  a {
+    margin-top: 50px;
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 40px;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em;
+  }
+}
+@keyframes cursorblink {
+  from {
+    border-right: 1px solid #dedede;
+  }
+  to {
+    border-right: 1px solid #666;
   }
 }
 

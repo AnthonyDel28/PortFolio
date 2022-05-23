@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="scss-css/name.css">
     <link rel="script" href="./script/particles.js">
     <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="./assets/icofont/icofont.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,15 +26,22 @@
         <div class="mobile-menu">
             <div class="topnav">
                 <h1>Anthony D.</h1>
-                <div id="myLinks">
-                    <a href="#news">About Me</a>
-                    <a href="#contact">Skills</a>
-                    <a href="#about">Experience</a>
-                    <a href="#about">Portfolio</a>
-                    <a href="#about">Contact</a>
+                <div id="mySidenav" class="sidenav">
+                    <a id="closeBtn" href="#" class="close">×</a>
+                    <ul>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                <a href="#" id="openBtn">
+                  <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
                 </a>
             </div>
         </div>
@@ -41,11 +49,16 @@
             <div class="face-image">
                 <img src="images/face-code.png" alt="">
             </div>
+            <div class="type-writer-text">
+                Student Web Developer
+            </div>
+            <a href="#about"><i class="icofont-circled-down"></i></i></a>
         </section>
     </div>
 </div>
 
 <script src="script/background.js"></script>
 <script src="script/menu.js"></script>
+<script src="script/text.js"></script>
 </body>
 </html>
