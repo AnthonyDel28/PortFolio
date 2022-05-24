@@ -153,6 +153,7 @@
   }
 
   a {
+    position: relative;
     margin-top: 50px;
     text-decoration: none;
   }
@@ -226,6 +227,7 @@
     animation: typewriter 8s steps(50) 0.5s 1 normal both, cursorblink 0.5s infinite;
   }
   .header-elements a {
+    position: relative;
     text-decoration: none;
     font-size: 35px;
     color: #f8f8f8;
@@ -285,34 +287,47 @@
     display: none;
   }
 }
-@media screen and (min-width: 1201px) and (min-width: 1201px) and (max-width: 1450px) {
+@media screen and (min-width: 1201px) and (min-width: 1201px) and (max-width: 1600px) {
   .header-content .header-elements .mega-text {
-    color: #f8f8f8;
+    color: #131313;
+    text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
-    font-size: 48px;
+    font-size: 53px;
   }
   .header-content .header-elements .mega-text h1 {
-    margin-top: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .header-content .header-elements .face-image {
+    position: relative;
+  }
+  .header-content .header-elements .face-image img {
+    width: 600px;
+    margin-left: -150px;
+  }
+  .header-content .header-elements a {
+    position: relative;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  .header-content .header-elements a i {
+    color: #f8f8f8;
   }
 }
-@media screen and (min-width: 1201px) and (min-width: 1451px) {
+@media screen and (min-width: 1201px) and (min-width: 1601px) {
   .header-content .header-elements .mega-text {
-    color: #f8f8f8;
+    color: #131313;
+    text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
   }
   .header-content .header-elements .mega-text h1 {
     margin-top: 0;
+    margin-left: 150px;
   }
-}
-@media screen and (min-width: 1201px) {
-  .header-content .header-elements .break {
-    flex-basis: 100%;
-    height: 0;
-  }
-}
-@media screen and (min-width: 1201px) {
   .header-content .header-elements a {
+    position: relative;
     text-decoration: none;
     font-size: 35px;
     margin-top: -100px;
@@ -321,9 +336,19 @@
     color: #f8f8f8;
   }
 }
+@media screen and (min-width: 1201px) {
+  .header-content .header-elements .break {
+    flex-basis: 100%;
+  }
+}
 /* Generals */
 html, body {
   background: #131313;
+  scroll-behavior: smooth;
+}
+
+.header-background {
+  position: fixed;
 }
 
 canvas {

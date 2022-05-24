@@ -12,6 +12,11 @@
 
 html, body{
   background: $primary;
+  scroll-behavior: smooth;
+}
+
+.header-background {
+  position:fixed;
 }
 
 canvas{
