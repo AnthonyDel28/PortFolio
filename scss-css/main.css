@@ -165,6 +165,7 @@
 
   /* --------------- ABOUT ME --------------- */
   .about-me {
+    position: relative;
     display: flex;
     justify-content: center;
   }
@@ -201,11 +202,11 @@
     font-family: "Roboto Mono", monospace;
   }
   .about-me .about-content .about-box img {
-    position: relative;
     z-index: 5;
     width: 100%;
     max-width: 600px;
     border-radius: 5px;
+    margin-bottom: 20px;
   }
   .about-me .about-content .about-box a {
     padding: 20px;
@@ -286,6 +287,7 @@
 
   /*------------------- ABOUT ME ------------------- */
   .about-me {
+    position: relative;
     display: flex;
     justify-content: center;
   }
@@ -329,6 +331,15 @@
     width: 100%;
     max-width: 600px;
     border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .about-me .about-content .about-box a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 20px;
+  }
+  .about-me .about-content .about-box i {
+    font-size: 25px;
   }
 }
 /* Desktop Size */
@@ -456,6 +467,7 @@ canvas {
 }
 
 .header-box {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
