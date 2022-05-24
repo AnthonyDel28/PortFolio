@@ -108,14 +108,14 @@
           font-family: $font;
         }
         .about-img {
+          border-radius: 15px;
           text-align: center;
           width: 100%;
-          img {
-            width: 100%;
-            max-width: 600px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            }
+          height: 500px;
+          background-image: url("/PortFolio/images/904924e3-7fd0-4722-8e25-fb2d23fa48d8 (1).jpg");
+          background-size: cover;
+          background-position: center;
+          margin-bottom: 20px;
         }
         a {
           text-decoration: none;
