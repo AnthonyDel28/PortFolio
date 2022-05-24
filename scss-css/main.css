@@ -64,7 +64,7 @@
     /* Icône burger */
   }
   .topnav h1 {
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
     margin-left: 25px;
@@ -162,6 +162,57 @@
     font-size: 40px;
     color: white;
   }
+
+  /* --------------- ABOUT ME --------------- */
+  .about-me {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me .about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-me .about-content h1 {
+    color: #131313;
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+  .about-me .about-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .about-me .about-content .about-box {
+    border: 0.5px solid rgba(255, 255, 255, 0.58);
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+  .about-me .about-content .about-box p {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+  }
+  .about-me .about-content .about-box img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+  }
+  .about-me .about-content .about-box a {
+    padding: 20px;
+  }
+  .about-me .about-content .about-box i {
+    font-size: 25px;
+  }
 }
 /* Medium size */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -197,7 +248,7 @@
   }
   .header-content .large-menu nav ul li a {
     text-decoration: none;
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
     font-family: "Roboto Mono", monospace;
   }
   .header-content .large-menu nav ul li a:hover {
@@ -230,7 +281,54 @@
     position: relative;
     text-decoration: none;
     font-size: 35px;
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
+  }
+
+  /*------------------- ABOUT ME ------------------- */
+  .about-me {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me .about-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-me .about-content h1 {
+    color: #131313;
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+  .about-me .about-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .about-me .about-content .about-box {
+    border: 0.5px solid rgba(255, 255, 255, 0.58);
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 25px;
+  }
+  .about-me .about-content .about-box p {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+  }
+  .about-me .about-content .about-box .about-img {
+    text-align: center;
+    width: 100%;
+  }
+  .about-me .about-content .about-box .about-img img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
   }
 }
 /* Desktop Size */
@@ -252,7 +350,7 @@
     align-items: center;
   }
   .header-content .large-menu nav h1 {
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
     font-family: "Roboto Mono", monospace;
     font-size: 55px;
     text-decoration: underline 0.5px solid white;
@@ -265,7 +363,7 @@
   }
   .header-content .large-menu nav ul li a {
     text-decoration: none;
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
     font-family: "Roboto Mono", monospace;
     font-size: 20px;
   }
@@ -312,7 +410,7 @@
     margin-top: 50px;
   }
   .header-content .header-elements a i {
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
   }
 }
 @media screen and (min-width: 1201px) and (min-width: 1601px) {
@@ -333,7 +431,7 @@
     margin-top: -100px;
   }
   .header-content .header-elements a i {
-    color: #f8f8f8;
+    color: rgba(255, 255, 255, 0.89);
   }
 }
 @media screen and (min-width: 1201px) {
