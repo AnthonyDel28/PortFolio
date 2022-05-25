@@ -185,16 +185,19 @@
     .inner {
       padding-top: 20px;
       .header {
+        text-align: center;
         color: $primary;
         text-shadow: 0 0 2px #fff;
         font-family: $font;
         font-size: 70px;
-        margin-bottom: 25px;
+        h1 {
+          position: relative;
+        }
       }
     }
     .container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -212,6 +215,7 @@
           padding: 0.5rem;
           margin-bottom: 0.5rem;
           h3 {
+            font-family: $font;
             color: $secondary;
             margin: 0.5rem;
 

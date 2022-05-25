@@ -139,6 +139,7 @@
     .inner {
       padding-top: 20px;
       .header {
+        text-align: center;
         color: $primary;
         text-shadow: 0 0 2px #fff;
         font-family: $font;
@@ -166,6 +167,7 @@
           padding: 0.5rem;
           margin-bottom: 0.5rem;
           h3 {
+            font-family: $font;
             color: $secondary;
             margin: 0.5rem;
 
