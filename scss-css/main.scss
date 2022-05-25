@@ -34,6 +34,18 @@ canvas{
   grid-row-gap: 0px;
 }
 
+.circle-down {
+  margin-top: 20px;
+  margin-bottom: 75px;
+  a {
+    position: relative;
+    text-decoration: none;
+    font-size: 35px;
+    i {
+      color: $secondary;
+    }
+  }
+}
 
 
 

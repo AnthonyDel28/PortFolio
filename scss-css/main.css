@@ -179,7 +179,7 @@
     margin-top: 50px;
   }
   .about-me .about-content h1 {
-    color: #131313;
+    color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
@@ -255,7 +255,7 @@
     font-family: "Roboto Mono", monospace;
   }
   .header-content .large-menu nav ul li a:hover {
-    color: #131313;
+    color: rgb(19, 19, 19);
   }
 
   .header-elements {
@@ -303,7 +303,7 @@
     margin-top: 50px;
   }
   .about-me .about-content h1 {
-    color: #131313;
+    color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
@@ -397,10 +397,12 @@
   .header-content .header-elements .type-writer-text {
     display: none;
   }
+
+  /*------------- ABOUT ME -----------------*/
 }
 @media screen and (min-width: 1201px) and (min-width: 1201px) and (max-width: 1600px) {
   .header-content .header-elements .mega-text {
-    color: #131313;
+    color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 53px;
@@ -416,19 +418,10 @@
     width: 600px;
     margin-left: -150px;
   }
-  .header-content .header-elements a {
-    position: relative;
-    text-decoration: none;
-    font-size: 35px;
-    margin-top: 50px;
-  }
-  .header-content .header-elements a i {
-    color: rgba(255, 255, 255, 0.89);
-  }
 }
 @media screen and (min-width: 1201px) and (min-width: 1601px) {
   .header-content .header-elements .mega-text {
-    color: #131313;
+    color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
@@ -441,7 +434,8 @@
     position: relative;
     text-decoration: none;
     font-size: 35px;
-    margin-top: -100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
   .header-content .header-elements a i {
     color: rgba(255, 255, 255, 0.89);
@@ -452,9 +446,73 @@
     flex-basis: 100%;
   }
 }
+@media screen and (min-width: 1201px) {
+  .about-me {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .about-me .about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-me .about-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 85px;
+  }
+  .about-me .about-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+    margin-top: 0;
+  }
+  .about-me .about-content .about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: rgba(65, 65, 65, 0.25);
+    text-align: center;
+  }
+  .about-me .about-content .about-box .text {
+    width: 100%;
+    background-color: rgba(65, 65, 65, 0.25);
+    padding: 10px;
+  }
+  .about-me .about-content .about-box .text p {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+  }
+  .about-me .about-content .about-box .about-img {
+    width: 100%;
+    height: 600px;
+    background-image: url("/PortFolio/images/904924e3-7fd0-4722-8e25-fb2d23fa48d8 (1).jpg");
+    background-size: cover;
+    background-position: 25% 66%;
+    border-radius: 25px;
+    border-bottom: 20px;
+  }
+  .about-me .about-content .about-box a {
+    font-size: 40px;
+    padding: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+  }
+}
 /* Generals */
 html, body {
-  background: #131313;
+  background: rgb(19, 19, 19);
   scroll-behavior: smooth;
 }
 
@@ -475,6 +533,19 @@ canvas {
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+
+.circle-down {
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+.circle-down a {
+  position: relative;
+  text-decoration: none;
+  font-size: 35px;
+}
+.circle-down a i {
+  color: rgba(255, 255, 255, 0.89);
 }
 
 /*# sourceMappingURL=main.css.map */
