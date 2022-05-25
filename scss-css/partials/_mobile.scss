@@ -117,16 +117,8 @@
       overflow: hidden;
       animation: typewriter 8s steps(50) 0.5s 1 normal both,
       cursorblink 0.5s infinite;
+      margin-bottom: 150px;
     }
-  }
-  a {
-    position: relative;
-    margin-top: 50px;
-    text-decoration: none;
-  }
-  i {
-    font-size: 40px;
-    color: white;
   }
   /* --------------- ABOUT ME --------------- */
   .about-me {
@@ -140,7 +132,6 @@
       flex-wrap: wrap;
       align-items: center;
       text-align: center;
-      margin-top: 50px;
       h1 {
         color: $primary;
         text-shadow: 0 0 2px #fff;
@@ -158,7 +149,8 @@
         border: 0.5px solid rgba(255, 255, 255, 0.58);
         width: 80%;
         padding: 10px;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
+        margin-bottom: 55px;
         p {
           color: $secondary;
           font-family: $font;
@@ -174,9 +166,69 @@
         }
         a {
           padding: 20px;
+          text-decoration: none;
         }
         i {
           font-size: 25px;
+          color: $secondary;
+        }
+      }
+    }
+  }
+  /*----------- MY SKILLS ----------------------*/
+  .my-skills {
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .inner {
+      padding-top: 20px;
+      .header {
+        color: $primary;
+        text-shadow: 0 0 2px #fff;
+        font-family: $font;
+        font-size: 70px;
+        margin-bottom: 25px;
+      }
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      grid-gap: 1rem;
+      padding: 1rem 80px;
+      font-size: 1.2rem;
+      .skills-box {
+        padding: 1rem;
+        color: #ddd;
+        cursor: pointer;
+        .skills-title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0.5rem;
+          margin-bottom: 0.5rem;
+          h3 {
+            color: $secondary;
+            margin: 0.5rem;
+
+          }
+          .skills-img {
+            width: 90px;
+            height: 90px;
+            position: relative;
+            border-radius: 45px;
+            background-color: $secondary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .skills-icon {
+              width: 50px;
+            }
+          }
         }
       }
     }

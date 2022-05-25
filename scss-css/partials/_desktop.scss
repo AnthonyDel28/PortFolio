@@ -99,7 +99,7 @@
       }
     }
   }
-  /*------------- ABOUT ME -----------------*/
+
   .about-me {
     position: relative;
     display: flex;
@@ -160,7 +160,67 @@
           text-decoration: none;
           color: $secondary;
         }
-     }
+      }
+    }
+  }
+  /*------------- MY SKILLS -----------------*/
+  .my-skills {
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .inner {
+      padding-top: 20px;
+      .header {
+        text-align: center;
+        color: $primary;
+        text-shadow: 0 0 2px #fff;
+        font-family: $font;
+        font-size: 70px;
+        margin-bottom: 25px;
+      }
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      grid-gap: 1rem;
+      padding: 1rem 80px;
+      font-size: 1.2rem;
+      .skills-box {
+        padding: 1rem;
+        color: #ddd;
+        cursor: pointer;
+        .skills-title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0.5rem;
+          margin-bottom: 0.5rem;
+          h3 {
+            font-family: $font;
+            color: $secondary;
+            margin: 0.5rem;
+
+          }
+          .skills-img {
+            width: 90px;
+            height: 90px;
+            position: relative;
+            border-radius: 45px;
+            background-color: $secondary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .skills-icon {
+              width: 50px;
+            }
+          }
+        }
+      }
     }
   }
 }

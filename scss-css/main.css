@@ -150,17 +150,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 8s steps(50) 0.5s 1 normal both, cursorblink 0.5s infinite;
-  }
-
-  a {
-    position: relative;
-    margin-top: 50px;
-    text-decoration: none;
-  }
-
-  i {
-    font-size: 40px;
-    color: white;
+    margin-bottom: 150px;
   }
 
   /* --------------- ABOUT ME --------------- */
@@ -176,7 +166,6 @@
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
   }
   .about-me .about-content h1 {
     color: rgb(19, 19, 19);
@@ -195,7 +184,8 @@
     border: 0.5px solid rgba(255, 255, 255, 0.58);
     width: 80%;
     padding: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
   }
   .about-me .about-content .about-box p {
     color: rgba(255, 255, 255, 0.89);
@@ -212,9 +202,67 @@
   }
   .about-me .about-content .about-box a {
     padding: 20px;
+    text-decoration: none;
   }
   .about-me .about-content .about-box i {
     font-size: 25px;
+    color: rgba(255, 255, 255, 0.89);
+  }
+
+  /*----------- MY SKILLS ----------------------*/
+  .my-skills * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .my-skills .inner {
+    padding-top: 20px;
+  }
+  .my-skills .inner .header {
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+  .my-skills .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .my-skills .container .skills-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+  }
+  .my-skills .container .skills-box .skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title h3 {
+    color: rgba(255, 255, 255, 0.89);
+    margin: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
+    width: 50px;
   }
 }
 /* Medium size */
@@ -279,6 +327,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 8s steps(50) 0.5s 1 normal both, cursorblink 0.5s infinite;
+    margin-bottom: 150px;
   }
   .header-elements a {
     position: relative;
@@ -300,7 +349,6 @@
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
   }
   .about-me .about-content h1 {
     color: rgb(19, 19, 19);
@@ -320,6 +368,7 @@
     width: 90%;
     padding: 10px;
     padding-bottom: 25px;
+    margin-bottom: 55px;
   }
   .about-me .about-content .about-box p {
     color: rgba(255, 255, 255, 0.89);
@@ -342,6 +391,62 @@
   }
   .about-me .about-content .about-box i {
     font-size: 25px;
+  }
+
+  /*------------------ MY SKILLS ---------------*/
+  .my-skills * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .my-skills .inner {
+    padding-top: 20px;
+  }
+  .my-skills .inner .header {
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+  .my-skills .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .my-skills .container .skills-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+  }
+  .my-skills .container .skills-box .skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title h3 {
+    color: rgba(255, 255, 255, 0.89);
+    margin: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
+    width: 50px;
   }
 }
 /* Desktop Size */
@@ -398,7 +503,7 @@
     display: none;
   }
 
-  /*------------- ABOUT ME -----------------*/
+  /*------------- MY SKILLS -----------------*/
 }
 @media screen and (min-width: 1201px) and (min-width: 1201px) and (max-width: 1600px) {
   .header-content .header-elements .mega-text {
@@ -509,6 +614,64 @@
     padding: 25px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.89);
+  }
+}
+@media screen and (min-width: 1201px) {
+  .my-skills * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .my-skills .inner {
+    padding-top: 20px;
+  }
+  .my-skills .inner .header {
+    text-align: center;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 70px;
+    margin-bottom: 25px;
+  }
+  .my-skills .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .my-skills .container .skills-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+  }
+  .my-skills .container .skills-box .skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title h3 {
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 255, 255, 0.89);
+    margin: 0.5rem;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
+    width: 50px;
   }
 }
 /* Generals */
