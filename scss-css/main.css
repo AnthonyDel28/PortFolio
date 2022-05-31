@@ -214,6 +214,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  .my-skills .circle-down {
+    margin-top: 15px;
   }
   .my-skills .inner {
     padding-top: 20px;
@@ -224,24 +229,26 @@
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
+    margin-bottom: 25px;
   }
-  .my-skills .inner .header h1 {
-    position: relative;
+  .my-skills .inner .header h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: -20px;
+    margin-top: 20px;
   }
   .my-skills .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: 1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
   }
   .my-skills .container .skills-box {
-    padding: 1rem;
+    padding: 0.5rem;
     color: #ddd;
-    cursor: pointer;
   }
   .my-skills .container .skills-box .skills-title {
     display: flex;
@@ -251,13 +258,15 @@
     margin-bottom: 0.5rem;
   }
   .my-skills .container .skills-box .skills-title h3 {
+    font-size: 15px;
     font-family: "Roboto Mono", monospace;
     color: rgba(255, 255, 255, 0.89);
-    margin: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
   .my-skills .container .skills-box .skills-title .skills-img {
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     position: relative;
     border-radius: 45px;
     background-color: rgba(255, 255, 255, 0.89);
@@ -266,7 +275,7 @@
     align-items: center;
   }
   .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
-    width: 50px;
+    width: 40px;
   }
 }
 /* Medium size */
@@ -402,6 +411,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  .my-skills .circle-down {
+    margin-top: 15px;
   }
   .my-skills .inner {
     padding-top: 20px;
@@ -413,6 +427,14 @@
     font-family: "Roboto Mono", monospace;
     font-size: 70px;
     margin-bottom: 25px;
+  }
+  .my-skills .inner .header h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: -20px;
+    margin-top: 20px;
   }
   .my-skills .container {
     display: grid;
@@ -427,7 +449,6 @@
   .my-skills .container .skills-box {
     padding: 1rem;
     color: #ddd;
-    cursor: pointer;
   }
   .my-skills .container .skills-box .skills-title {
     display: flex;
@@ -439,7 +460,8 @@
   .my-skills .container .skills-box .skills-title h3 {
     font-family: "Roboto Mono", monospace;
     color: rgba(255, 255, 255, 0.89);
-    margin: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
   .my-skills .container .skills-box .skills-title .skills-img {
     width: 90px;
@@ -628,6 +650,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    text-align: center;
+  }
+  .my-skills .circle-down {
+    margin-top: 15px;
   }
   .my-skills .inner {
     padding-top: 20px;
@@ -640,6 +667,14 @@
     font-size: 70px;
     margin-bottom: 25px;
   }
+  .my-skills .inner .header h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
   .my-skills .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -650,13 +685,9 @@
     padding: 1rem 80px;
     font-size: 1.2rem;
   }
-  .my-skills .container hr {
-    color: blue;
-  }
   .my-skills .container .skills-box {
     padding: 1rem;
     color: #ddd;
-    cursor: pointer;
   }
   .my-skills .container .skills-box .skills-title {
     display: flex;
@@ -668,7 +699,8 @@
   .my-skills .container .skills-box .skills-title h3 {
     font-family: "Roboto Mono", monospace;
     color: rgba(255, 255, 255, 0.89);
-    margin: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
   }
   .my-skills .container .skills-box .skills-title .skills-img {
     width: 90px;
