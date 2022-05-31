@@ -150,7 +150,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation: typewriter 8s steps(50) 0.5s 1 normal both, cursorblink 0.5s infinite;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
   }
 
   /* --------------- ABOUT ME --------------- */
@@ -533,6 +533,8 @@
   }
 
   /*------------- MY SKILLS -----------------*/
+
+  /*--------------- EXPERIENCE ---------------*/
 }
 @media screen and (min-width: 1201px) and (min-width: 1201px) and (max-width: 1600px) {
   .header-content .header-elements .mega-text {
@@ -654,7 +656,7 @@
     text-align: center;
   }
   .my-skills .circle-down {
-    margin-top: 15px;
+    margin-top: 50px;
   }
   .my-skills .inner {
     padding-top: 20px;
@@ -714,6 +716,70 @@
   }
   .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
     width: 50px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .experience {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .experience .experience-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .experience .experience-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 85px;
+  }
+  .experience .experience-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .experience .experience-content .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 7rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .experience .experience-content .container .card {
+    width: 250px;
+    height: 350px;
+    background-color: rgba(19, 19, 19, 0.56);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 50%;
+  }
+  .experience .experience-content .container .card h3 {
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .date {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.89);
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
