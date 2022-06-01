@@ -277,6 +277,74 @@
   .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
     width: 40px;
   }
+
+  .experience {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .experience .experience-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .experience .experience-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 85px;
+  }
+  .experience .experience-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .experience .experience-content .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 7rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .experience .experience-content .container .card {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(19, 19, 19, 0.56);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.46);
+  }
+  .experience .experience-content .container .card img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 50%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
+    object-fit: cover;
+  }
+  .experience .experience-content .container .card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .date {
+    margin-top: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.89);
+  }
 }
 /* Medium size */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -475,6 +543,74 @@
   }
   .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
     width: 50px;
+  }
+
+  .experience {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .experience .experience-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .experience .experience-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 85px;
+  }
+  .experience .experience-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .experience .experience-content .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 7rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+  }
+  .experience .experience-content .container .card {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(19, 19, 19, 0.56);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.46);
+  }
+  .experience .experience-content .container .card img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 50%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
+    object-fit: cover;
+  }
+  .experience .experience-content .container .card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .date {
+    margin-top: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.89);
   }
 }
 /* Desktop Size */
@@ -733,6 +869,9 @@
     text-align: center;
     margin-top: 50px;
   }
+  .experience .experience-content .circle-down {
+    margin-top: 50px;
+  }
   .experience .experience-content h1 {
     margin-top: -25px;
     margin-bottom: 0;
@@ -761,7 +900,7 @@
   }
   .experience .experience-content .container .card {
     width: 250px;
-    height: 350px;
+    height: 250px;
     background-color: rgba(19, 19, 19, 0.56);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.46);
@@ -771,6 +910,7 @@
     width: 100%;
     height: 50%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
+    object-fit: cover;
   }
   .experience .experience-content .container .card h3 {
     margin-top: 0;
@@ -784,6 +924,11 @@
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .cursus {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
