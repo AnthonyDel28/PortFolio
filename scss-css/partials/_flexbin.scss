@@ -39,7 +39,8 @@ $flexbin-space-phone: $flexbin-space !default;
 
     @media #{$desktop} {
         &.flexbin-margin {
-            margin: 180px;
+            margin-left: 160px;
+            margin-right: 160px;
             margin-top: 35px;
         }
     }

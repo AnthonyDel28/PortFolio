@@ -228,7 +228,7 @@
     color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 25px;
   }
   .my-skills .inner .header h2 {
@@ -278,6 +278,7 @@
     width: 40px;
   }
 
+  /*------------------ EXPERIENCE -----------------*/
   .experience {
     position: relative;
     display: flex;
@@ -292,13 +293,16 @@
     text-align: center;
     margin-top: 50px;
   }
+  .experience .experience-content .circle-down {
+    margin-top: 50px;
+  }
   .experience .experience-content h1 {
     margin-top: -25px;
     margin-bottom: 0;
     color: rgb(19, 19, 19);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
-    font-size: 85px;
+    font-size: 55px;
   }
   .experience .experience-content h2 {
     color: rgba(255, 255, 255, 0.89);
@@ -310,17 +314,26 @@
   }
   .experience .experience-content .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: 7rem;
+    grid-gap: 3rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
   }
+
+  /*--------------- PORTFOLIO ---------------- */
+}
+@media screen and (max-width: 767px) and (max-width: 650px) {
+  .experience .experience-content .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
   .experience .experience-content .container .card {
     width: 250px;
-    height: 100px;
+    height: 250px;
     background-color: rgba(19, 19, 19, 0.56);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.46);
@@ -331,6 +344,7 @@
     height: 50%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
     object-fit: cover;
+    filter: grayscale(30%);
   }
   .experience .experience-content .container .card h3 {
     margin-top: 0;
@@ -344,6 +358,45 @@
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .cursus {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio .portfolio-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .portfolio .portfolio-content .circle-down {
+    margin-top: 50px;
+  }
+  .portfolio .portfolio-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 60px;
+  }
+  .portfolio .portfolio-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
   }
 }
 /* Medium size */
@@ -559,6 +612,9 @@
     text-align: center;
     margin-top: 50px;
   }
+  .experience .experience-content .circle-down {
+    margin-top: 50px;
+  }
   .experience .experience-content h1 {
     margin-top: -25px;
     margin-bottom: 0;
@@ -577,17 +633,17 @@
   }
   .experience .experience-content .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: 7rem;
+    grid-gap: 3rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
   }
   .experience .experience-content .container .card {
     width: 250px;
-    height: 100px;
+    height: 250px;
     background-color: rgba(19, 19, 19, 0.56);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.46);
@@ -598,6 +654,7 @@
     height: 50%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
     object-fit: cover;
+    filter: grayscale(30%);
   }
   .experience .experience-content .container .card h3 {
     margin-top: 0;
@@ -611,6 +668,46 @@
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.89);
+  }
+  .experience .experience-content .container .card .cursus {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+  }
+
+  /*-------------- PORTFOLIO --------------*/
+  .portfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio .portfolio-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .portfolio .portfolio-content .circle-down {
+    margin-top: 50px;
+  }
+  .portfolio .portfolio-content h1 {
+    margin-top: -25px;
+    margin-bottom: 0;
+    color: rgb(19, 19, 19);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 85px;
+  }
+  .portfolio .portfolio-content h2 {
+    color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0 0 2px #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 30px;
   }
 }
 /* Desktop Size */
@@ -900,6 +997,13 @@
     padding: 1rem 80px;
     font-size: 1.2rem;
   }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .experience .experience-content .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1201px) {
   .experience .experience-content .container .card {
     width: 250px;
     height: 250px;
@@ -932,6 +1036,11 @@
     color: white;
     font-family: "Roboto Mono", monospace;
     font-size: 12px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .experience .experience-content #container2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1201px) {
@@ -1001,7 +1110,8 @@
 }
 @media screen and (min-width: 1201px) {
   .flexbin.flexbin-margin {
-    margin: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
     margin-top: 35px;
   }
 }
@@ -1043,7 +1153,8 @@
 }
 @media screen and (max-width: 980px) and (min-width: 1201px) {
   .flexbin.flexbin-margin {
-    margin: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
     margin-top: 35px;
   }
 }
@@ -1085,7 +1196,8 @@
 }
 @media screen and (max-width: 400px) and (min-width: 1201px) {
   .flexbin.flexbin-margin {
-    margin: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
     margin-top: 35px;
   }
 }
