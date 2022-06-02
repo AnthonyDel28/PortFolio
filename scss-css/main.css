@@ -1261,4 +1261,78 @@ canvas {
   color: rgba(255, 255, 255, 0.89);
 }
 
+/*-------------- TESTIMONIALS ----------------- */
+.testimonials {
+  text-align: center;
+}
+.testimonials h1 {
+  color: rgb(19, 19, 19);
+  text-shadow: 0 0 2px #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 85px;
+  margin-top: -35px;
+  margin-bottom: 150px;
+}
+.testimonials .testimonials-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonials .testimonials-content .column {
+  width: 20%;
+  padding: 25px;
+}
+.testimonials .testimonials-content .testimonials-content {
+  margin: 0 -5px;
+}
+.testimonials .testimonials-content .testimonials-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .testimonials .testimonials-content .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.testimonials .testimonials-content .card {
+  box-shadow: 0 0 2px #fff;
+  text-align: center;
+  background-color: #2a2a2a;
+  height: 300px;
+}
+.testimonials .testimonials-content .card img {
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 5px solid rgb(19, 19, 19);
+  margin-bottom: -20px;
+}
+.testimonials .testimonials-content .card h3 {
+  color: rgb(19, 19, 19);
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.testimonials .testimonials-content .card h4 {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: "Roboto Mono", monospace;
+}
+.testimonials .testimonials-content .card .curved {
+  position: relative;
+  background: rgba(255, 255, 255, 0.68);
+  height: 100px;
+  border-bottom-left-radius: 50% 41%;
+  border-bottom-right-radius: 50% 41%;
+}
+.testimonials .testimonials-content .card p {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: "Roboto Mono", monospace;
+  padding: 25px;
+}
+
 /*# sourceMappingURL=main.css.map */
