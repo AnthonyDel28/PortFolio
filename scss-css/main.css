@@ -913,6 +913,7 @@
     height: 50%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
     object-fit: cover;
+    filter: grayscale(30%);
   }
   .experience .experience-content .container .card h3 {
     margin-top: 0;
@@ -967,55 +968,6 @@
     margin-bottom: 15px;
     margin-top: 30px;
   }
-  .portfolio .portfolio-content .card-container {
-    position: relative;
-    width: 65vmin;
-    height: 80vmin;
-  }
-  .portfolio .portfolio-content .card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 80%;
-    background-color: #fafafa;
-    border-radius: 2px;
-    box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.35);
-    transition: transform 0.35s ease-out;
-    transform: translate(var(--x), var(--y)) scale(0.35) rotate(var(--angle));
-    will-change: transform;
-  }
-  .portfolio .portfolio-content .card:hover {
-    transform: scale(1) rotate(0deg);
-    z-index: 1;
-  }
-  .portfolio .portfolio-content .card:hover:before {
-    opacity: 1;
-  }
-  .portfolio .portfolio-content .card:before {
-    content: "";
-    display: block;
-    width: 90%;
-    height: 80%;
-    margin: 5%;
-    background: var(--image) center center no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 5px rgba(34, 34, 34, 0.35);
-    border-radius: 2px;
-    filter: sepia(0.2) brightness(0.9) contrast(1.2);
-    transition: opacity 0.35s ease-out;
-    opacity: 1;
-    will-change: opacity;
-  }
-  .portfolio .portfolio-content .card:after {
-    display: block;
-    content: var(--caption);
-    font-weight: 500;
-    color: #555;
-    font-size: 3vmin;
-    opacity: 1;
-    text-align: center;
-  }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
   .header-elements {
@@ -1023,6 +975,142 @@
     margin-bottom: 50px;
   }
 }
+.flexbin {
+  display: flex;
+  overflow: visible;
+  flex-wrap: wrap;
+  margin: -2.5px;
+}
+.flexbin:after {
+  content: "";
+  flex-grow: 999999999;
+  min-width: 300px;
+  height: 0;
+}
+.flexbin > * {
+  position: relative;
+  display: block;
+  height: 300px;
+  margin: 2.5px;
+  flex-grow: 1;
+}
+.flexbin > * > img {
+  height: 300px;
+  vertical-align: bottom;
+  opacity: 0.8;
+}
+@media screen and (min-width: 1201px) {
+  .flexbin.flexbin-margin {
+    margin: 180px;
+    margin-top: 35px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .flexbin.flexbin-margin {
+    margin: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .flexbin.flexbin-margin {
+    margin: 30px;
+  }
+}
+@media (max-width: 980px) {
+  .flexbin {
+    display: flex;
+    overflow: visible;
+    flex-wrap: wrap;
+    margin: -2.5px;
+  }
+  .flexbin:after {
+    content: "";
+    flex-grow: 999999999;
+    min-width: 150px;
+    height: 0;
+  }
+  .flexbin > * {
+    position: relative;
+    display: block;
+    height: 150px;
+    margin: 2.5px;
+    flex-grow: 1;
+  }
+  .flexbin > * > img {
+    height: 150px;
+    vertical-align: bottom;
+    opacity: 0.8;
+  }
+}
+@media screen and (max-width: 980px) and (min-width: 1201px) {
+  .flexbin.flexbin-margin {
+    margin: 180px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 980px) and (min-width: 768px) and (max-width: 1200px) {
+  .flexbin.flexbin-margin {
+    margin: 90px;
+  }
+}
+@media screen and (max-width: 980px) and (max-width: 767px) {
+  .flexbin.flexbin-margin {
+    margin: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .flexbin {
+    display: flex;
+    overflow: visible;
+    flex-wrap: wrap;
+    margin: -2.5px;
+  }
+  .flexbin:after {
+    content: "";
+    flex-grow: 999999999;
+    min-width: 100px;
+    height: 0;
+  }
+  .flexbin > * {
+    position: relative;
+    display: block;
+    height: 100px;
+    margin: 2.5px;
+    flex-grow: 1;
+  }
+  .flexbin > * > img {
+    height: 100px;
+    vertical-align: bottom;
+    opacity: 0.8;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 1201px) {
+  .flexbin.flexbin-margin {
+    margin: 180px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 768px) and (max-width: 1200px) {
+  .flexbin.flexbin-margin {
+    margin: 90px;
+  }
+}
+@media screen and (max-width: 400px) and (max-width: 767px) {
+  .flexbin.flexbin-margin {
+    margin: 30px;
+  }
+}
+.flexbin img {
+  position: relative;
+  opacity: 0.8;
+  filter: grayscale(20%);
+  object-fit: cover;
+}
+.flexbin img:hover {
+  z-index: 100;
+  transform: scale(1.5);
+  opacity: 1;
+}
+
 /* Generals */
 html, body {
   background: rgb(19, 19, 19);
