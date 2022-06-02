@@ -881,6 +881,9 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.89);
   }
+  .about-me .about-content .circle-down {
+    margin-top: 25px;
+  }
 }
 @media screen and (min-width: 1201px) {
   .my-skills * {
@@ -1229,6 +1232,27 @@ html, body {
   scroll-behavior: smooth;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.89);
+  color: rgb(19, 19, 19);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
 .header-background {
   position: fixed;
 }
@@ -1264,6 +1288,7 @@ canvas {
 /*-------------- TESTIMONIALS ----------------- */
 .testimonials {
   text-align: center;
+  position: relative;
 }
 .testimonials h1 {
   color: rgb(19, 19, 19);
@@ -1272,6 +1297,11 @@ canvas {
   font-size: 85px;
   margin-top: -35px;
   margin-bottom: 150px;
+}
+@media screen and (max-width: 780px) {
+  .testimonials h1 {
+    font-size: 55px;
+  }
 }
 .testimonials .testimonials-content {
   display: flex;
@@ -1292,9 +1322,16 @@ canvas {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .testimonials .testimonials-content .column {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 781px) {
+  .testimonials .testimonials-content .column {
+    width: 40%;
     display: block;
     margin-bottom: 20px;
   }
@@ -1302,7 +1339,7 @@ canvas {
 .testimonials .testimonials-content .card {
   box-shadow: 0 0 2px #fff;
   text-align: center;
-  background-color: #2a2a2a;
+  background-color: rgba(42, 42, 42, 0.58);
   height: 300px;
 }
 .testimonials .testimonials-content .card img {
@@ -1329,10 +1366,23 @@ canvas {
   border-bottom-left-radius: 50% 41%;
   border-bottom-right-radius: 50% 41%;
 }
+.testimonials .testimonials-content .card .socials {
+  margin-top: 10px;
+}
+.testimonials .testimonials-content .card .socials a {
+  text-decoration: none;
+}
+.testimonials .testimonials-content .card .socials i {
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 20px;
+}
 .testimonials .testimonials-content .card p {
   color: rgba(255, 255, 255, 0.89);
   font-family: "Roboto Mono", monospace;
-  padding: 25px;
+  padding: 20px;
+}
+.testimonials .circle-down {
+  margin-top: 75px;
 }
 
 /*# sourceMappingURL=main.css.map */
