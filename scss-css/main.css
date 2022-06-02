@@ -1385,4 +1385,56 @@ canvas {
   margin-top: 75px;
 }
 
+/*-------------- CONTACT --------------*/
+.contact-content {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(42, 42, 42, 0.58);
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-form h1 {
+  margin-bottom: 10px;
+}
+
+.form-txt {
+  width: 80%;
+  height: 40px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.form-txt-area {
+  width: 80%;
+  height: 130px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */
