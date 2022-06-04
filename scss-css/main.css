@@ -64,7 +64,7 @@
     /* Icône burger */
   }
   .topnav h1 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
     margin-left: 25px;
@@ -175,7 +175,7 @@
     margin-bottom: 25px;
   }
   .about-me .about-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
     margin-top: 0;
@@ -188,7 +188,7 @@
     margin-bottom: 55px;
   }
   .about-me .about-content .about-box p {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
   }
   .about-me .about-content .about-box .about-img {
@@ -206,7 +206,7 @@
   }
   .about-me .about-content .about-box i {
     font-size: 25px;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
 
   /*----------- MY SKILLS ----------------------*/
@@ -232,7 +232,7 @@
     margin-bottom: 25px;
   }
   .my-skills .inner .header h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -260,7 +260,7 @@
   .my-skills .container .skills-box .skills-title h3 {
     font-size: 15px;
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: -10px;
   }
@@ -269,7 +269,7 @@
     height: 75px;
     position: relative;
     border-radius: 45px;
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +305,7 @@
     font-size: 55px;
   }
   .experience .experience-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -351,13 +351,13 @@
     margin-bottom: 0;
     font-size: 18px;
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .date {
     margin-top: 0;
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .cursus {
     color: white;
@@ -391,7 +391,7 @@
     font-size: 60px;
   }
   .portfolio .portfolio-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 25px;
@@ -433,7 +433,7 @@
   }
   .header-content .large-menu nav ul li a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
   }
   .header-content .large-menu nav ul li a:hover {
@@ -467,7 +467,7 @@
     position: relative;
     text-decoration: none;
     font-size: 35px;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
 
   /*------------------- ABOUT ME ------------------- */
@@ -492,7 +492,7 @@
     margin-bottom: 25px;
   }
   .about-me .about-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
     margin-top: 0;
@@ -505,7 +505,7 @@
     margin-bottom: 55px;
   }
   .about-me .about-content .about-box p {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
   }
   .about-me .about-content .about-box .about-img {
@@ -520,7 +520,7 @@
   }
   .about-me .about-content .about-box a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     padding: 20px;
   }
   .about-me .about-content .about-box i {
@@ -550,7 +550,7 @@
     margin-bottom: 25px;
   }
   .my-skills .inner .header h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -580,7 +580,7 @@
   }
   .my-skills .container .skills-box .skills-title h3 {
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: -10px;
   }
@@ -589,7 +589,7 @@
     height: 90px;
     position: relative;
     border-radius: 45px;
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -624,7 +624,7 @@
     font-size: 85px;
   }
   .experience .experience-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -661,13 +661,13 @@
     margin-bottom: 0;
     font-size: 18px;
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .date {
     margin-top: 0;
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .cursus {
     color: white;
@@ -702,7 +702,7 @@
     font-size: 85px;
   }
   .portfolio .portfolio-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -729,7 +729,7 @@
     align-items: center;
   }
   .header-content .large-menu nav h1 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 55px;
     text-decoration: underline 0.5px solid white;
@@ -742,7 +742,7 @@
   }
   .header-content .large-menu nav ul li a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 20px;
   }
@@ -809,7 +809,7 @@
     margin-bottom: 50px;
   }
   .header-content .header-elements a i {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
 }
 @media screen and (min-width: 1201px) {
@@ -841,7 +841,7 @@
     font-size: 85px;
   }
   .about-me .about-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 50px;
     margin-top: 0;
@@ -862,7 +862,7 @@
     padding: 10px;
   }
   .about-me .about-content .about-box .text p {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     font-family: "Roboto Mono", monospace;
     font-size: 25px;
   }
@@ -879,7 +879,7 @@
     font-size: 40px;
     padding: 25px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .about-me .about-content .circle-down {
     margin-top: 25px;
@@ -908,7 +908,7 @@
     margin-bottom: 25px;
   }
   .my-skills .inner .header h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -938,7 +938,7 @@
   }
   .my-skills .container .skills-box .skills-title h3 {
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: -10px;
   }
@@ -947,7 +947,7 @@
     height: 90px;
     position: relative;
     border-radius: 45px;
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -983,7 +983,7 @@
     font-size: 85px;
   }
   .experience .experience-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -1027,13 +1027,13 @@
     margin-bottom: 0;
     font-size: 18px;
     font-family: "Roboto Mono", monospace;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .date {
     margin-top: 0;
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
   }
   .experience .experience-content .container .card .cursus {
     color: white;
@@ -1073,7 +1073,7 @@
     font-size: 85px;
   }
   .portfolio .portfolio-content h2 {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 2px #fff;
     font-family: "Roboto Mono", monospace;
     font-size: 35px;
@@ -1230,6 +1230,7 @@
 html, body {
   background: rgb(19, 19, 19);
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 #myBtn {
@@ -1240,7 +1241,7 @@ html, body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgb(255, 255, 255);
   color: rgb(19, 19, 19);
   cursor: pointer;
   padding: 15px;
@@ -1282,7 +1283,7 @@ canvas {
   font-size: 35px;
 }
 .circle-down a i {
-  color: rgba(255, 255, 255, 0.89);
+  color: rgb(255, 255, 255);
 }
 
 /*-------------- TESTIMONIALS ----------------- */
@@ -1373,11 +1374,11 @@ canvas {
   text-decoration: none;
 }
 .testimonials .testimonials-content .card .socials i {
-  color: rgba(255, 255, 255, 0.89);
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
 .testimonials .testimonials-content .card p {
-  color: rgba(255, 255, 255, 0.89);
+  color: rgb(255, 255, 255);
   font-family: "Roboto Mono", monospace;
   padding: 20px;
 }
@@ -1386,6 +1387,24 @@ canvas {
 }
 
 /*-------------- CONTACT --------------*/
+.contact {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.contact h1 {
+  color: rgb(19, 19, 19);
+  text-shadow: 0 0 2px #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 85px;
+  margin-top: -35px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 780px) {
+  .contact h1 {
+    font-size: 55px;
+  }
+}
+
 .contact-content {
   position: relative;
   width: 80%;
@@ -1397,22 +1416,41 @@ canvas {
   border-radius: 10px;
   background: rgba(42, 42, 42, 0.58);
   box-shadow: 0px 0px 10px 0px #666;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-map {
   width: 100%;
   height: auto;
   flex: 50%;
+  text-align: center;
+}
+.contact-map h2 {
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+}
+.contact-map iframe {
+  border-radius: 15px;
+  filter: grayscale(30%);
 }
 
 .contact-form {
   width: 100%;
   height: auto;
   flex: 50%;
+  text-align: center;
+  margin-top: -10px;
 }
 
-.contact-form h1 {
-  margin-bottom: 10px;
+.contact-form h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
 }
 
 .form-txt {
@@ -1424,17 +1462,56 @@ canvas {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  padding-left: 35px;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 20px;
+}
+
+.form-txt::placeholder,
+.form-txt-area::placeholder {
+  color: rgb(19, 19, 19);
+  padding-left: 25px;
 }
 
 .form-txt-area {
   width: 80%;
-  height: 130px;
+  height: 150px;
   color: #000;
   border: 1px solid #bcbcbc;
   border-radius: 50px;
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
+  padding-left: 35px;
+  margin-left: 20px;
+  font-family: "Roboto Mono", monospace;
+  resize: none;
 }
+
+.contact-form-btn {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  color: rgb(19, 19, 19);
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.contact-form-btn:hover {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: rgb(19, 19, 19);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+/*----- FOOTER ------*/
 
 /*# sourceMappingURL=main.css.map */
