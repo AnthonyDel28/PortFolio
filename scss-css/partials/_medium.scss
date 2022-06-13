@@ -2,18 +2,18 @@
 
 
 @media #{$medium} {
-  .mobile-menu {
-    display: none;
-  }
   .header-content {
     grid-area: 1 / 2 / 13 / 12;
     animation: fadein 8s;
-    .large-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
       nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         margin-top: 15px;
         h1 {
@@ -21,8 +21,6 @@
           font-family: $font;
           font-size: $desk-big-title-size;
           margin-bottom: 10px;
-          text-decoration: underline 0.5px solid white;
-          text-underline-offset: 0.5rem;
         }
         ul {
           li {
@@ -36,7 +34,6 @@
             a:hover {
               color: $primary;
             }
-          }
         }
       }
     }

@@ -1,13 +1,15 @@
 // Color definitions
 
+
+
 nav {
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
   height: 100px;
   padding: 0 5%;
   padding-top: 80px;
-  display: flex;
-  justify-content: space-evenly;
   &::after {
     content: '';
     position: absolute;
@@ -18,15 +20,15 @@ nav {
     z-index: 1;
     transition: all 0.3s ease-in-out;
   }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 768px) {
     padding: 0 5%;
     padding-top: 50px;
   }
-  #logo {
+  .glitch {
     float: left;
     line-height: 50px;
     font-size: 50px;
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 768px) {
       font-size: 40px;
     }
     @media only screen and (min-width: 1250px) {
@@ -37,7 +39,7 @@ nav {
   }
   #nav-container {
     text-align: right;
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 768px) {
       position: absolute;
       max-height: 0px;
       overflow: hidden;
@@ -61,8 +63,8 @@ nav {
       @media only screen and (min-width: 1201px) and (max-width: 1400px) {
         font-size: 15px;
       }
-      @media only screen and (max-width: 1000px) {
-        display: block;
+      @media only screen and (max-width: 768px) {
+        display: flex;
         color: white;
         background-color: $primary;
         text-align: center;
@@ -70,7 +72,7 @@ nav {
       }
       &:hover {
         background-color: $primary;
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (max-width: 768px) {
           background-color: $secondary;
           color: $primary;
           z-index: 100;
@@ -90,7 +92,7 @@ nav {
     font-size: 30px;
     cursor: pointer;
     color: $secondary;
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 768px) {
       display: block;
     }
   }
