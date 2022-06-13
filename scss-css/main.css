@@ -715,32 +715,6 @@
   .header-content .mobile-menu {
     display: none;
   }
-  .header-content .large-menu {
-    height: 120px;
-  }
-  .header-content .large-menu nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header-content .large-menu nav h1 {
-    color: rgb(255, 255, 255);
-    font-family: "Roboto Mono", monospace;
-    font-size: 55px;
-    text-decoration: underline 0.5px solid white;
-    text-underline-offset: 5px;
-  }
-  .header-content .large-menu nav ul li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
-  }
-  .header-content .large-menu nav ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: "Roboto Mono", monospace;
-    font-size: 20px;
-  }
   .header-content .header-elements {
     display: flex;
     flex-direction: row;
@@ -805,6 +779,9 @@
   }
   .header-content .header-elements a i {
     color: rgb(255, 255, 255);
+  }
+  .header-content .header-elements a i:hover {
+    color: gray;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -881,6 +858,9 @@
   .about-me .about-content .circle-down {
     margin-top: 25px;
   }
+  .about-me .about-content .circle-down i:hover {
+    color: gray;
+  }
 }
 @media screen and (min-width: 1201px) {
   .my-skills * {
@@ -951,6 +931,9 @@
   }
   .my-skills .container .skills-box .skills-title .skills-img .skills-icon {
     width: 50px;
+  }
+  .my-skills .circle-down i:hover {
+    color: gray;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -1044,6 +1027,11 @@
   }
 }
 @media screen and (min-width: 1201px) {
+  .experience .circle-down i:hover {
+    color: gray;
+  }
+}
+@media screen and (min-width: 1201px) {
   .portfolio {
     position: relative;
     display: flex;
@@ -1076,6 +1064,9 @@
     font-size: 35px;
     margin-bottom: 15px;
     margin-top: 30px;
+  }
+  .portfolio .circle-down i:hover {
+    color: gray;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -1270,7 +1261,14 @@ canvas {
   grid-row-gap: 0px;
 }
 .header-box .header-content nav {
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 0px;
+  width: 100%;
+}
+.header-box .header-content nav #logo {
+  font-family: Helvetica;
 }
 
 .circle-down {
@@ -1377,6 +1375,9 @@ canvas {
   color: rgb(255, 255, 255);
   font-size: 20px;
 }
+.testimonials .testimonials-content .card .socials i:hover {
+  color: gray;
+}
 .testimonials .testimonials-content .card p {
   color: rgb(255, 255, 255);
   font-family: "Roboto Mono", monospace;
@@ -1384,6 +1385,9 @@ canvas {
 }
 .testimonials .circle-down {
   margin-top: 25px;
+}
+.testimonials .circle-down i:hover {
+  color: gray;
 }
 
 /*-------------- CONTACT --------------*/
@@ -1560,6 +1564,9 @@ canvas {
   text-decoration: none;
   color: white;
   padding: 10px;
+}
+.footer .footer-content .socials i:hover {
+  color: gray;
 }
 @media screen and (max-width: 600px) {
   .footer .footer-content .year {

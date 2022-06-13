@@ -9,6 +9,7 @@
 @import "partials/testimonials";
 
 
+
 /* Generals */
 
 html, body{
@@ -16,6 +17,8 @@ html, body{
   scroll-behavior: smooth;
   margin: 0;
 }
+
+
 
 #myBtn {
   display: none;
@@ -48,6 +51,7 @@ canvas{
   left: 0;
 }
 
+
 .header-box {
   position: relative;
   display: grid;
@@ -57,7 +61,14 @@ canvas{
   grid-row-gap: 0px;
   .header-content {
     nav {
-      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+      padding-left: 0px;
+      width: 100%;
+      #logo {
+        font-family: Helvetica;
+      }
     }
   }
 }
@@ -159,6 +170,9 @@ canvas{
           color: $secondary;
           font-size: 20px;
         }
+        i:hover {
+          color: gray;
+        }
       }
       p {
         color: $secondary;
@@ -169,6 +183,9 @@ canvas{
   }
   .circle-down {
     margin-top: 25px;
+    i:hover {
+      color: gray;
+    }
   }
 }
 
@@ -346,6 +363,9 @@ canvas{
         text-decoration: none;
         color: white;
         padding: 10px;
+      }
+      i:hover {
+        color: gray;
       }
     }
     @media screen and (max-width: 600px) {

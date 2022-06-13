@@ -9,34 +9,6 @@
     .mobile-menu {
       display: none;
     }
-    .large-menu {
-      height: 120px;
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        h1 {
-          color: $secondary;
-          font-family: $font;
-          font-size: $desk-big-title-size;
-          text-decoration: underline 0.5px solid white;
-          text-underline-offset: 5px;
-        }
-        ul {
-          li {
-            display: inline;
-            list-style-type: none;
-            margin-right: 20px;
-            a {
-              text-decoration: none;
-              color: $secondary;
-              font-family: $font;
-              font-size: 20px;
-            }
-          }
-        }
-      }
-    }
     .header-elements {
       display: flex;
       flex-direction: row;
@@ -92,6 +64,9 @@
           margin-bottom: 50px;
           i {
             color: $secondary;
+          }
+          i:hover {
+            color: gray;
           }
       }
       }
@@ -165,6 +140,9 @@
       }
       .circle-down {
         margin-top: 25px;
+        i:hover {
+          color: gray;
+        }
       }
     }
   }
@@ -237,6 +215,11 @@
             }
           }
         }
+      }
+    }
+    .circle-down {
+      i:hover {
+        color: gray;
       }
     }
   }
@@ -322,6 +305,11 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
+    .circle-down {
+      i:hover {
+        color: gray;
+      }
+    }
   }
   /*---------------- PORTFOLIO ------------------*/
   .portfolio {
@@ -358,6 +346,11 @@
         font-size: 35px;
         margin-bottom: 15px;
         margin-top: 30px;
+      }
+    }
+    .circle-down {
+      i:hover {
+        color: gray;
       }
     }
   }
