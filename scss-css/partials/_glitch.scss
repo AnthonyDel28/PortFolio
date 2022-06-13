@@ -6,7 +6,8 @@
   font-family: 'Roboto';
   font-weight: 700;
   margin-left: 20px;
-  margin-top: -15px;
+  margin-top: -5px;
+  animation-duration: inherit;
 }
 .glitch::before,
 .glitch::after {
@@ -15,6 +16,7 @@
   overflow: hidden;
   background-color: $primary;
   color: #fff;
+  animation-duration: inherit;
 }
 .glitch::before {
   left: 8px;
