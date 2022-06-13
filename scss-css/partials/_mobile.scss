@@ -7,7 +7,6 @@
   }
   .header-content {
     grid-area: 1 / 1 / 13 / 13;
-    margin-top: 25px;
     font-size: 21px;
     text-align: center;
     animation: fadein 8s;
@@ -18,6 +17,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    width: 80%;
     h1 {
       color: $secondary;
       font-family: $font;
@@ -94,8 +94,8 @@
         margin: auto;
         margin-left: 20px;
         margin-top: 50px;
-        margin-left: -50px;
-        width: 500px;
+        width: 80%;
+        height: auto;
       }
     }
     .mega-text {
@@ -159,13 +159,15 @@
           background-position: center;
           margin-bottom: 20px;
         }
-        a {
-          padding: 20px;
-          text-decoration: none;
-        }
-        i {
-          font-size: 25px;
-          color: $secondary;
+        .circle-down {
+          a {
+            padding: 20px;
+            text-decoration: none;
+          }
+          i {
+            font-size: 25px;
+            color: $secondary;
+          }
         }
       }
     }

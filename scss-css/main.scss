@@ -55,10 +55,16 @@ canvas{
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  .header-content {
+    nav {
+      width: 80%;
+    }
+  }
 }
 
+
 .circle-down {
-  margin-top: -50px;
+  margin-top: -40px;
   margin-bottom: 120px;
   a {
     position: relative;
@@ -162,7 +168,7 @@ canvas{
     }
   }
   .circle-down {
-    margin-top: 75px;
+    margin-top: 25px;
   }
 }
 
@@ -277,6 +283,7 @@ canvas{
   text-transform: uppercase;
   padding: 10px 0;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .contact-form-btn:hover {
