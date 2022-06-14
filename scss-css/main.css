@@ -129,7 +129,7 @@
     position: relative;
     margin: auto;
     margin-left: 20px;
-    margin-top: -50px;
+    margin-top: 20px;
     width: 90%;
     height: auto;
   }
@@ -191,7 +191,7 @@
     border-radius: 15px;
     width: 100%;
     height: 500px;
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
@@ -505,7 +505,7 @@
     text-align: center;
     width: 100%;
     height: 500px;
-    background-image: url("/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
@@ -1598,7 +1598,7 @@ canvas {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
 }
 .testimonials .testimonials-content .column {
   width: 20%;
@@ -1941,6 +1941,7 @@ nav #nav-container a {
 @media only screen and (max-width: 1200px) {
   nav #nav-container a {
     font-size: 12px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -1955,6 +1956,7 @@ nav #nav-container a {
     background-color: rgb(19, 19, 19);
     text-align: center;
     z-index: 100;
+    margin-left: 20px;
   }
 }
 nav #nav-container a:hover {
