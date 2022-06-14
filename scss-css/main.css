@@ -1598,7 +1598,7 @@ canvas {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
 }
 .testimonials .testimonials-content .column {
   width: 20%;
