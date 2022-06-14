@@ -7,6 +7,7 @@
 @import "partials/desktop";
 @import "partials/flexbin";
 @import "partials/glitch";
+@import "partials/experience";
 
 
 
@@ -354,6 +355,9 @@ canvas{
       p {
         font-family: $font;
         font-size: 10px;
+      }
+      i {
+        color: red;
       }
     }
     .socials {
