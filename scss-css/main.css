@@ -821,149 +821,61 @@
     margin-bottom: 50px;
   }
 }
-.flexbin {
+.row {
+  position: relative;
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  overflow: visible;
-  flex-wrap: wrap;
-  margin: -2.5px;
-}
-.flexbin:after {
-  content: "";
-  flex-grow: 999999999;
-  min-width: 300px;
-  height: 0;
-}
-.flexbin > * {
-  position: relative;
-  display: block;
-  height: 300px;
-  margin: 2.5px;
-  flex-grow: 1;
-}
-.flexbin > * > img {
-  height: 300px;
-  vertical-align: bottom;
-  opacity: 0.8;
-}
-@media screen and (min-width: 1201px) {
-  .flexbin.flexbin-margin {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 35px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .flexbin.flexbin-margin {
-    margin: 90px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .flexbin.flexbin-margin {
-    margin: 30px;
-  }
-}
-@media (max-width: 980px) {
-  .flexbin {
-    display: flex;
-    overflow: visible;
-    flex-wrap: wrap;
-    margin: -2.5px;
-  }
-  .flexbin:after {
-    content: "";
-    flex-grow: 999999999;
-    min-width: 150px;
-    height: 0;
-  }
-  .flexbin > * {
-    position: relative;
-    display: block;
-    height: 150px;
-    margin: 2.5px;
-    flex-grow: 1;
-  }
-  .flexbin > * > img {
-    height: 150px;
-    vertical-align: bottom;
-    opacity: 0.8;
-  }
-}
-@media screen and (max-width: 980px) and (min-width: 1201px) {
-  .flexbin.flexbin-margin {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 35px;
-  }
-}
-@media screen and (max-width: 980px) and (min-width: 768px) and (max-width: 1200px) {
-  .flexbin.flexbin-margin {
-    margin: 90px;
-  }
-}
-@media screen and (max-width: 980px) and (max-width: 767px) {
-  .flexbin.flexbin-margin {
-    margin: 30px;
-  }
-}
-@media (max-width: 400px) {
-  .flexbin {
-    display: flex;
-    overflow: visible;
-    flex-wrap: wrap;
-    margin: -2.5px;
-  }
-  .flexbin:after {
-    content: "";
-    flex-grow: 999999999;
-    min-width: 100px;
-    height: 0;
-  }
-  .flexbin > * {
-    position: relative;
-    display: block;
-    height: 100px;
-    margin: 2.5px;
-    flex-grow: 1;
-  }
-  .flexbin > * > img {
-    height: 100px;
-    vertical-align: bottom;
-    opacity: 0.8;
-  }
-}
-@media screen and (max-width: 400px) and (min-width: 1201px) {
-  .flexbin.flexbin-margin {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 35px;
-  }
-}
-@media screen and (max-width: 400px) and (min-width: 768px) and (max-width: 1200px) {
-  .flexbin.flexbin-margin {
-    margin: 90px;
-  }
-}
-@media screen and (max-width: 400px) and (max-width: 767px) {
-  .flexbin.flexbin-margin {
-    margin: 30px;
-  }
-}
-.flexbin img {
-  position: relative;
-  opacity: 0.8;
-  filter: grayscale(20%);
-  object-fit: cover;
-}
-.flexbin img:hover {
-  z-index: 100;
-  transform: scale(1.5);
-  opacity: 1;
-}
-.flexbin .last-photo {
-  width: 50%;
-  object-fit: cover;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  padding: 0 4px;
+  width: 80%;
 }
 
+/* Create four equal columns that sits next to each other */
+.columns {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columns img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+  filter: grayscale(30%);
+  position: relative;
+  opacity: 0.8;
+}
+
+.columns img:active {
+  z-index: 100;
+  transform: scale(2);
+  opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .row {
+    width: 80%;
+  }
+
+  .columns {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columns {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 100%;
+  }
+}
 .glitch {
   color: #fff;
   font-size: 60px;
@@ -1917,6 +1829,7 @@ canvas {
 }
 .testimonials .testimonials-content .card p {
   color: rgb(255, 255, 255);
+  font-size: 14px;
   font-family: "Roboto Mono", monospace;
   padding: 20px;
 }

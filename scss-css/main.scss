@@ -5,7 +5,7 @@
 @import "partials/mobile";
 @import "partials/medium";
 @import "partials/desktop";
-@import "partials/flexbin";
+@import "partials/gallery";
 @import "partials/glitch";
 @import "partials/experience";
 @import "partials/menu";
@@ -446,6 +446,7 @@ canvas{
       }
       p {
         color: $secondary;
+        font-size: 14px;
         font-family: $font;
         padding: 20px;
       }

@@ -11,6 +11,7 @@ $flexbin-space-phone: $flexbin-space !default;
 
 @mixin flexbin($row-height, $space) {
     display: flex;
+    justify-content: center;
     overflow: visible;
     flex-wrap: wrap;
     margin: - $space / 2;
@@ -38,19 +39,19 @@ $flexbin-space-phone: $flexbin-space !default;
 
     @media #{$desktop} {
         &.flexbin-margin {
-            margin-left: 200px;
-            margin-right: 200px;
+            margin-left: 6%;
+            margin-right: 6%;
             margin-top: 35px;
         }
     }
     @media #{$medium} {
         &.flexbin-margin {
-            margin: 90px;
+            margin: 6%;
         }
     }
     @media #{$mobile} {
         &.flexbin-margin {
-            margin: 30px;
+            margin: 15%;
         }
     }
 }
@@ -75,10 +76,6 @@ $flexbin-space-phone: $flexbin-space !default;
         z-index: 100;
         transform: scale(1.5);
         opacity: 1;
-    }
-    .last-photo {
-        width: 50%;
-        object-fit: cover;
     }
 }
 

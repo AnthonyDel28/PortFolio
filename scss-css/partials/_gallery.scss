@@ -1,0 +1,51 @@
+.row {
+  position: relative;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  padding: 0 4px;
+  width: 80%;
+}
+
+/* Create four equal columns that sits next to each other */
+.columns {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columns img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+  filter: grayscale(30%);
+  position: relative;
+  opacity: 0.8;
+}
+.columns img:active {
+  z-index: 100;
+  transform: scale(2);
+  opacity: 1;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .row {
+    width: 80%;
+  }
+  .columns {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columns {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 100%;
+  }
+}
