@@ -15,7 +15,6 @@ $flexbin-space-phone: $flexbin-space !default;
     flex-wrap: wrap;
     margin: - $space / 2;
 
-
     &:after {
         content: '';
         flex-grow: 999999999;
@@ -39,8 +38,8 @@ $flexbin-space-phone: $flexbin-space !default;
 
     @media #{$desktop} {
         &.flexbin-margin {
-            margin-left: 160px;
-            margin-right: 160px;
+            margin-left: 200px;
+            margin-right: 200px;
             margin-top: 35px;
         }
     }
@@ -76,6 +75,10 @@ $flexbin-space-phone: $flexbin-space !default;
         z-index: 100;
         transform: scale(1.5);
         opacity: 1;
+    }
+    .last-photo {
+        width: 50%;
+        object-fit: cover;
     }
 }
 
