@@ -14,8 +14,9 @@
         h2 {
           color: $secondary;
           font-family: $font;
-          font-size: 40px;
+          font-size: 30px;
           margin-top: 0;
+          margin-bottom: 0;
         }
     }
     .circle-down {
@@ -27,23 +28,26 @@
   .container{
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 50px auto;
+    margin-top: 20px;
   }
   .box{
-    width: 25%;
+    width: 35%;
     height: auto;
     border: 1px solid #ccc;
-    margin-right: 1%;
+    margin-right: 6%;
     background: rgba(23, 23, 23, 0.42);
     border-radius: 10px;
     transition: 0.9;
     h4 {
-      font: $font;
+      font-family: $font;
       color: $secondary;
       text-align: center;
-      font-size: 12px;
+      font-size: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   }
   .box:hover{
@@ -62,12 +66,14 @@
     text-align: center;
     font-family: $font;
     color: $secondary;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   p{
     text-align: center;
     font-family: $font;
     color: $secondary;
-    font-size: 15px;
+    font-size: 13px;
     padding: 0 5px;
   }
   @media (max-width: 900px){
