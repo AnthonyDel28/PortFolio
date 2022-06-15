@@ -8,6 +8,7 @@
 @import "partials/flexbin";
 @import "partials/glitch";
 @import "partials/experience";
+@import "partials/menu";
 
 
 
@@ -120,7 +121,7 @@ canvas{
     }
     @media screen and (max-width: 780px) {
       .column {
-        width: 100%;
+        width: 70%;
         display: block;
         margin-bottom: 20px;
       }
@@ -387,4 +388,3 @@ canvas{
 }
 
 
-@import "partials/menu";

@@ -11,7 +11,6 @@
     text-align: center;
     animation: fadein 8s;
   }
-
   .topnav {
     overflow: hidden;
     position: relative;
@@ -96,6 +95,9 @@
         margin-top: -50px;
         width: 90%;
         height: auto;
+        @media (max-width: 600px) {
+          margin-top: 25px;
+        }
       }
     }
     .mega-text {
@@ -237,86 +239,6 @@
             .skills-icon {
               width: 40px;
             }
-          }
-        }
-      }
-    }
-  }
-  /*------------------ EXPERIENCE -----------------*/
-  .experience {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    .experience-content {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-top: 50px;
-      .circle-down {
-        margin-top: 50px;
-      }
-      h1 {
-        margin-top: -25px;
-        margin-bottom: 0;
-        color: $primary;
-        text-shadow: 0 0 2px #fff;
-        font-family: $font;
-        font-size: 55px;
-      }
-      h2 {
-        color: $secondary;
-        text-shadow: 0 0 2px #fff;
-        font-family: $font;
-        font-size: 35px;
-        margin-bottom: 15px;
-        margin-top: 30px;
-      }
-      .container {
-        display: grid;
-        @media (max-width: 650px) {
-          grid-template-columns: repeat(1, 1fr);
-        }
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        grid-gap: 3rem;
-        padding: 1rem 80px;
-        font-size: 1.2rem;
-        .card {
-          width: 250px;
-          height: 250px;
-          background-color: rgba(19, 19, 19, 0.56);
-          border-radius: 15px;
-          border: 1px solid rgba(255, 255, 255, 0.46);
-          img {
-            border-radius: 15px 15px 0 0;
-            width: 100%;
-            height: 50%;
-            border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
-            object-fit: cover;
-            filter: grayscale(30%);
-          }
-          h3 {
-            margin-top: 0;
-            margin-bottom: 0;
-            font-size: 18px;
-            font-family: $font;
-            color: $secondary;
-          }
-          .date {
-            margin-top: 0;
-            font-family: $font;
-            font-size: 15px;
-            color: $secondary;
-          }
-          .cursus {
-            color: white;
-            font-family: $font;
-            font-size: 12px;
           }
         }
       }
